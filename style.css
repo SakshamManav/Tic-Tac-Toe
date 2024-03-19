@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #177E89;
+}
+.header{
+    padding:10px;
+}
+
+.container1{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.btn-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 375px;
+    max-height:500px;
+    text-align: center;
+    background-color: black;
+    background-color: #DB3A34;
+}
+.btn{
+    font-weight: 900;
+    margin: 2px;
+    min-width: 120px;
+    min-height: 120px;
+    font-size: 30px;
+    background-color: #FFC857;
+}
+.btn:active{
+    background-color: #F75C03;
+}
+.msg{
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    color:rgb(255, 0, 0);
+}
